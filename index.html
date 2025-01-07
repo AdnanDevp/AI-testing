@@ -9,17 +9,74 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f5f5f5;
         }
-        h1 {
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
             color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
         }
         p {
             line-height: 1.6;
+            color: #666;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .resources {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .contact {
+            margin-top: 30px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to AI Testing</h1>
-    <p>This is a simple test page for our AI repository.</p>
+    <div class="container">
+        <h1>Welcome to AI Testing</h1>
+        
+        <div class="section">
+            <h2>About This Project</h2>
+            <p>This repository serves as a testing ground for AI experiments and demonstrations. Here, we explore various AI concepts, implementations, and best practices.</p>
+        </div>
+
+        <div class="section">
+            <h2>Example Sections</h2>
+            <p>Our project includes various examples of AI applications:</p>
+            <ul>
+                <li>Machine Learning Models</li>
+                <li>Natural Language Processing</li>
+                <li>Computer Vision</li>
+                <li>Neural Networks</li>
+            </ul>
+        </div>
+
+        <div class="section resources">
+            <h2>Resources</h2>
+            <p>Useful links for AI development:</p>
+            <ul>
+                <li>Documentation</li>
+                <li>API References</li>
+                <li>Training Datasets</li>
+                <li>Community Forums</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us at: example@ai-testing.com</p>
+        </div>
+    </div>
 </body>
 </html>
